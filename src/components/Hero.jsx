@@ -2,7 +2,10 @@ import { useEffect, useState } from 'react'
 import NodeGraph from './NodeGraph.jsx'
 import { profile } from '../data/portfolioData.js'
 
-const roles = ['AI/ML Engineer', 'Data Analyst', 'Python Developer', 'GenAI Builder']
+const roles = ['AI/ML Developer',
+  'Python Developer',
+  'Data Analyst',
+  'GenAI Builder']
 
 export default function Hero() {
   const [roleIndex, setRoleIndex] = useState(0)
@@ -77,7 +80,7 @@ export default function Hero() {
           <div>
 
             <p className="eyebrow mb-5">
-              Portfolio · {profile.location}
+               {profile.location}
             </p>
 
             <h1 className="font-display text-5xl font-semibold leading-[1.05] text-textHi sm:text-6xl md:text-7xl">
