@@ -134,8 +134,7 @@ export default function Hero() {
 
       {/* Scroll */}
       <a
-        href="#about"
-        className="absolute bottom-8 left-1/2 z-10 -translate-x-1/2 font-mono text-xs text-textLo transition-colors hover:text-mint"
+        className="absolute bottom-8 left-1/2 z-10 -translate-x-1/2 font-mono text-xs text-textLo transition-colors hover:black"
       >
         scroll ↓
       </a>
