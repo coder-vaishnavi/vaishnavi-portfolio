@@ -7,7 +7,7 @@ export default function About() {
       <Reveal>
         <p className="eyebrow mb-3">01 · About</p>
         <h2 className="font-display text-3xl font-semibold text-textHi sm:text-4xl">
-          Building at the edge of AI and data.
+          Building practical AI solutions for real-world problems.
         </h2>
       </Reveal>
 

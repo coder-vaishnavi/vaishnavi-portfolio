@@ -9,10 +9,10 @@ export const profile = {
   linkedin: 'https://www.linkedin.com/in/vaishnavideshmukh01/',
   github: 'https://github.com/coder-vaishnavi',
   about:
-    "Computer Engineering student passionate about Artificial Intelligence, Machine Learning, and Generative AI. Skilled in Python, SQL, and Flask, and building AI-powered applications using LLMs and the Google Gemini API. Familiar with prompt engineering, REST APIs, explainable AI, and modern AI development workflows — eager to contribute to real-world AI and data solutions.",
+    "Computer Engineering student focused on Artificial Intelligence, Machine Learning, and Generative AI. I build practical AI-powered applications using Python, SQL, Flask, LLMs, and the Google Gemini API, with experience in Explainable AI, REST APIs, and data-driven development. My projects span multimodal deepfake detection, AI-powered career guidance, and GNN-LLM based code analysis, with multiple wins in technical project competitions.",
   stats: [
     { label: 'Projects Built', value: '3+' },
-    { label: 'Certifications', value: '8' },
+    { label: 'Certifications', value: '8+' },
     { label: 'Competition Wins', value: '5' },
     { label: 'CGPA', value: '8.1' },
   ],
