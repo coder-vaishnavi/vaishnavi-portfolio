@@ -129,10 +129,10 @@ export const education = [
 ]
 
 export const strengths = [
-  'Communication Skills',
-  'Problem Solving',
-  'Teamwork & Collaboration',
+  'AI Problem Solving',
   'Analytical Thinking',
-  'Time Management',
-  'Quick Learning Ability',
+  'Rapid Learning',
+  'Technical Communication',
+  'Team Collaboration',
+  'Innovation & Research',
 ]
