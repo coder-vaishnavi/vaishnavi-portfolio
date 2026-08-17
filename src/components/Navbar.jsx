@@ -27,10 +27,6 @@ export default function Navbar() {
       }`}
     >
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <a href="#top" className="font-display text-lg font-semibold tracking-tight text-textHi">
-          VD<span className="text-mint">.</span>
-        </a>
-
         <ul className="hidden md:flex items-center gap-8 font-mono text-sm text-textLo">
           {links.map((l) => (
             <li key={l.href}>
