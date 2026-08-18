@@ -8,7 +8,7 @@ export default function Skills() {
         <Reveal>
           <p className="eyebrow mb-3">02 · Skills</p>
           <h2 className="font-display text-3xl font-semibold text-textHi sm:text-4xl">
-            Tools I reach for.
+            What I build with
           </h2>
         </Reveal>
 
