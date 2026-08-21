@@ -12,11 +12,6 @@ export default function Internship() {
           <h2 className="font-display text-3xl font-semibold text-textHi sm:text-4xl">
             Building, learning, and contributing.
           </h2>
-
-          <p className="mt-4 max-w-2xl text-textLo">
-            My internship experience, the technologies I work with, and the
-            real-world problems I contribute to solving.
-          </p>
         </Reveal>
 
         <div className="mt-10">
