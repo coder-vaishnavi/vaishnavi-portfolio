@@ -1,25 +1,26 @@
-# Vaishnavi Portfolio 🚧
+# Vaishnavi Portfolio 🚀
 
-Personal portfolio website — **currently being built from scratch** as a way to learn React and Tailwind CSS hands-on.
+Personal portfolio website built with **React, Tailwind CSS, and Vite** to showcase my skills, projects, achievements, and journey in **AI/ML & Data Science**.
 
-## Status
-🔨 Work in progress — building section by section while learning core React concepts (components, props, state, hooks) and Tailwind styling.
+🌐 **Live:** https://vaishnavi-portfolio-kohl.vercel.app/
 
-## Tech Stack
-- React
-- Tailwind CSS
-## Getting Started
+## 🛠️ Tech Stack
+
+* React.js
+* Tailwind CSS
+* Vite
+* JavaScript
+* Vercel
+
+## 🚀 Run Locally
+
 ```bash
 npm install
-npm start
-```
-Runs the app at `http://localhost:3000`.
-
-## Build
-```bash
-npm run build
+npm run dev
 ```
 
-## Author
+## 👩‍💻 Author
+
 **Vaishnavi Deshmukh**
+
 [LinkedIn](https://www.linkedin.com/in/vaishnavideshmukh01/) · [GitHub](https://github.com/coder-vaishnavi)
