@@ -27,10 +27,10 @@ export const skills = [
     category: 'AI & Machine Learning',
     items: ['Machine Learning', 'Deep Learning', 'LLMs', 'Prompt Engineering', 'Explainable AI (Grad-CAM, LIME)'],
   },
-  // {
-  //   category: 'Generative AI',
-  //   items: ['Google Gemini API', 'Hugging Face'],
-  // },
+  {
+    category: 'Generative AI',
+    items: ['Google Gemini API', 'Hugging Face'],
+  },
   {
     category: 'Data Analytics',
     items: ['Power BI', 'Excel', 'SQL', 'Data Visualization'],
