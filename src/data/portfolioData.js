@@ -89,7 +89,9 @@ export const analyticsCaseStudies = [
     link: null,
   },
 ]
-
+export const internshipExperience = [
+  
+]
 export const achievements = [
   { title: '1st Prize — YashoTechFest 2K25 Project Competition', year: '2025' },
   { title: '3rd Prize — ROTAREX 2025 State Level Project Competition', year: '2025' },

@@ -1,39 +1,92 @@
 import Reveal from './Reveal.jsx'
-import { analyticsCaseStudies } from '../data/portfolioData.js'
+import { internshipExperience } from '../data/portfolioData.js'
 
-export default function Analytics() {
+export default function Internship() {
   return (
-    <section id="analytics" className="border-t border-line bg-surface/40 py-28">
+    <section id="experience" className="border-t border-line bg-surface/40 py-28">
       <div className="mx-auto max-w-6xl px-6">
+
         <Reveal>
-          <p className="eyebrow mb-3">04 · Data Analytics</p>
+          <p className="eyebrow mb-3">04 · Experience</p>
+
           <h2 className="font-display text-3xl font-semibold text-textHi sm:text-4xl">
-            Case studies, not just charts.
+            Building, learning, and contributing.
           </h2>
+
           <p className="mt-4 max-w-2xl text-textLo">
-            Each case study follows: business question → data source → method → insight → recommendation.
-            Replace the placeholder below with your own SQL / Power BI / Python analyses.
+            My internship experience, the technologies I work with, and the
+            real-world problems I contribute to solving.
           </p>
         </Reveal>
 
-        <div className="mt-10 grid gap-6 md:grid-cols-2">
-          {analyticsCaseStudies.map((c, i) => (
-            <Reveal key={c.title} delay={i * 80}>
-              <article className="card-hover h-full rounded-2xl border border-dashed border-line bg-surface p-6">
-                <h3 className="font-display text-lg text-textHi">{c.title}</h3>
-                <p className="mt-2 font-mono text-xs text-mint">{c.question}</p>
-                <div className="mt-4 flex flex-wrap gap-2">
-                  {c.tools.map((t) => (
-                    <span key={t} className="rounded-full bg-ink px-2.5 py-1 font-mono text-[10px] text-textLo">
-                      {t}
-                    </span>
-                  ))}
+        <div className="mt-10">
+          {internshipExperience.map((internship, i) => (
+            <Reveal key={internship.company} delay={i * 80}>
+              <article className="card-hover rounded-2xl border border-line bg-surface p-6 md:p-8">
+
+                <div className="flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
+
+                  <div>
+                    <p className="font-mono text-xs text-mint">
+                      {internship.duration}
+                    </p>
+
+                    <h3 className="mt-2 font-display text-2xl font-semibold text-textHi">
+                      {internship.role}
+                    </h3>
+
+                    <p className="mt-1 text-base text-textLo">
+                      {internship.company}
+                    </p>
+                  </div>
+
+                  <span className="w-fit rounded-full border border-mint/30 bg-mint/10 px-3 py-1 font-mono text-xs text-mint">
+                    {internship.status}
+                  </span>
+
                 </div>
-                <p className="mt-4 text-sm leading-relaxed text-textLo">{c.insight}</p>
+
+                <p className="mt-6 max-w-3xl text-sm leading-relaxed text-textLo">
+                  {internship.description}
+                </p>
+
+                <div className="mt-6">
+                  <p className="mb-3 font-mono text-xs uppercase tracking-wider text-textLo">
+                    Technologies
+                  </p>
+
+                  <div className="flex flex-wrap gap-2">
+                    {internship.tools.map((tool) => (
+                      <span
+                        key={tool}
+                        className="rounded-full bg-ink px-3 py-1.5 font-mono text-[10px] text-textLo"
+                      >
+                        {tool}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="mt-6">
+                  <p className="mb-3 font-mono text-xs uppercase tracking-wider text-textLo">
+                    What I worked on
+                  </p>
+
+                  <ul className="space-y-2 text-sm text-textLo">
+                    {internship.work.map((item) => (
+                      <li key={item} className="flex gap-3">
+                        <span className="text-mint">▹</span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
               </article>
             </Reveal>
           ))}
         </div>
+
       </div>
     </section>
   )
