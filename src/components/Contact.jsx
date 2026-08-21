@@ -13,7 +13,7 @@ export default function Contact() {
           <p className="mt-4 max-w-xl text-textLo">
             Open to internships and entry-level roles
             Reach out directly, or connect on
-            LinkedIn / GitHub.
+            LinkedIn / GitHub  / Email.
           </p>
         </Reveal>
 
