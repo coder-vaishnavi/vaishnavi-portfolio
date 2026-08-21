@@ -37,13 +37,13 @@ export default function Navbar() {
           ))}
         </ul>
 
-        {/* <a
+        <a
           href="/resume.pdf"
           download
           className="hidden md:inline-flex items-center rounded-full border border-mint/40 px-4 py-2 font-mono text-xs uppercase tracking-wide text-mint transition-colors hover:bg-mint hover:text-ink"
         >
           Resume
-        </a> */}
+        </a>
 
         <button
           onClick={() => setOpen(!open)}
