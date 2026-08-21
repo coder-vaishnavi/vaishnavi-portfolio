@@ -21,7 +21,7 @@ export const profile = {
 export const skills = [
   {
     category: 'Languages',
-    items: ['Python', 'SQL', 'JavaScript'],
+    items: ['Python', 'SQL', 'JavaScript','Java'],
   },
   {
     category: 'AI & Machine Learning',
