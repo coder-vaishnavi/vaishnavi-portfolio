@@ -11,7 +11,8 @@ export default function Contact() {
             Let's build something.
           </h2>
           <p className="mt-4 max-w-xl text-textLo">
-            Open to internships and entry-level roles in AI/ML and data analytics. Reach out directly, or connect on
+            Open to internships and entry-level roles
+            Reach out directly, or connect on
             LinkedIn / GitHub.
           </p>
         </Reveal>
