@@ -7,17 +7,19 @@ export default function Internship() {
       <div className="mx-auto max-w-6xl px-6">
 
         <Reveal>
-          <p className="eyebrow mb-3">04 · Experience</p>
+  <p className="eyebrow mb-3">04 · Experience</p>
 
-          <h2 className="font-display text-3xl font-semibold text-textHi sm:text-4xl">
-            Building, learning, and contributing.
-          </h2>
-          <h1 className="font-display text-3xl font-semibold text-textHi sm:text-4xl">
-            IBM SkillsBuild — Data Analytics with AI Intern | Aug 2026 – Present
-Selected for the 6-week Virtual IBM SkillsBuild Data Analytics with AI Internship 2026, offered in collaboration with
-AICTE, designed to build foundational knowledge in Data Science and Data Analytics.
-          </h1>
-        </Reveal>
+  <h1 className="font-display text-3xl">
+    IBM SkillsBuild — Data Analytics with AI Intern | Aug 2026 – Present
+  </h1>
+
+  <p className="mt-4 text-base leading-relaxed">
+    Selected for the 6-week virtual IBM SkillsBuild Data Analytics with AI
+    Internship 2026, in collaboration with AICTE. Developing practical
+    knowledge in Data Analytics, Data Science, AI, and data-driven problem
+    solving.
+  </p>
+</Reveal>
 
         <div className="mt-10">
           {internshipExperience.map((internship, i) => (
