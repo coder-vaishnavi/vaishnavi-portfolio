@@ -12,6 +12,11 @@ export default function Internship() {
           <h2 className="font-display text-3xl font-semibold text-textHi sm:text-4xl">
             Building, learning, and contributing.
           </h2>
+          <h1 className="font-display text-3xl font-semibold text-textHi sm:text-4xl">
+            IBM SkillsBuild — Data Analytics with AI Intern | Aug 2026 – Present
+Selected for the 6-week Virtual IBM SkillsBuild Data Analytics with AI Internship 2026, offered in collaboration with
+AICTE, designed to build foundational knowledge in Data Science and Data Analytics.
+          </h1>
         </Reveal>
 
         <div className="mt-10">
