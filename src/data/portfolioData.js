@@ -2,7 +2,7 @@ export const profile = {
   name: 'Vaishnavi Deshmukh',
   title: 'Computer Engineering Student · AI/ML & Data Enthusiast',
   pitch:
-    "I build practical AI and data-driven solutions using Python, Machine Learning, SQL, and Generative AI, while expanding my skills in Java, JavaScript, and React. I’m passionate about turning real-world problems into intelligent, scalable, and user-focused products.",
+    "I build practical AI and data-driven solutions using Python, Machine Learning, SQL, and Generative AI, while expanding my skills in Java, JavaScript, and React. I’m passionate about turning real-world problems into intelligent, scalable, and user-focused products . ",
   location: 'Satara, Maharashtra',
   email: 'deshmukhvaishnavi1907@gmail.com',
   phone: '9511622337',
